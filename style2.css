@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+    position:relative;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+background-color: #000000;
+width:300px;
+height: 300px;
+border-radius: 10px;
+display: grid;
+place-items:center;
+margin: 5px;
+border-style: dashed;
+border-color: #34b2c8;
+}
+.tt{
+    color: #fff;
+    font-size: 50px;
+}
+.tt-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    color: #fff;
+}
+.mobile{
+    position: absolute;
+    top:5px;
+    left: 5px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.vlt{
+    position: absolute;
+    left: 50px;
+}
+.img-dino{
+    width: 250px;
+   
+    border-radius: 10px;
+}
+.img-dino:hover{
+    width:200px;
+    transition: 0.3s;
+}
+.img-slither{
+    width: 180px;
+}
+.img-slither:hover{
+    width: 150px;
+    transition: 0.3s;
+}
+.img-forca{
+    width: 180px;
+}
+.img-forca:hover{
+    width: 140px;
+    transition: 0.3s;
+}
+.img-fogo-e-agua{
+    width: 200px;
+    border-radius: 10px;
+}
+.img-fogo-e-agua:hover{
+    width: 150px;
+    transition: 0.3s;
+}
+.img-mordecai{
+    width: 180px;
+    border-radius: 10px;
+}
+.img-mordecai:hover{
+    width: 140px;
+    transition: 0.3s;
+}
+.img-cruzada{
+    width: 150px;
+}
+.img-cruzada:hover{
+    width: 100px;
+    transition: 0.3s;
+}
+.img-xadrez{
+    width: 200px;
+}
+.img-xadrez:hover{
+    width: 150px;
+    transition: 0.3s;
+}
+.img-io{
+    width: 180px;
+    border-radius: 10px;
+}
+.img-io:hover{
+    width: 140px;
+    transition: 0.3s;
+}
+@media(max-width:700px){
+    .card{
+        width:300px;
+        height:100;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-dino{
+    width:150px;
+    border-radius: 5px;
+    
+}
+}
+@media(max-width:500px){
+     .card{
+        width:250px;
+        height:200px;
+    }
+    .tt{
+        font-size:35px;
+    }
+    .img-slither{
+    width: 130px;
+}
+.img-dino:hover{
+width: 110px;
+}
+.img-slither:hover{
+    width: 100px;
+   
+}
+.img-forca{
+    width: 120px;
+}
+.img-forca:hover{
+    width: 100px;
+    
+}
+.img-fogo-e-agua{
+    width: 130px;
+    border-radius: 10px;
+}
+.img-fogo-e-agua:hover{
+    width: 100px;
+    
+}
+.img-mordecai{
+    width: 130px;
+    border-radius: 10px;
+}
+.img-mordecai:hover{
+    width: 100px;
+}
+.img-cruzada{
+    width: 110px;
+}
+.img-cruzada:hover{
+    width: 80px;
+   
+}
+.img-xadrez{
+    width: 150px;
+}
+.img-xadrez:hover{
+    width: 110px;
+    
+}
+.img-io{
+    width: 130px;
+    border-radius: 10px;
+}
+.img-io:hover{
+    width: 100px;
+    ;
+}
+.vlt{
+    left: 5px;
+}
+}
